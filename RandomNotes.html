@@ -1,0 +1,43 @@
+<html>
+    <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">	
+    <title>ملاحظات عشوائية</title>
+    <link rel="icon" type="image/jpg" href="..\Images\logo.ico" />  
+    <link rel="stylesheet" href="..\css\myW3.css">       
+    <link rel="stylesheet" type="text/css" href="..\css\RandomNotes.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head> 
+    
+    <body>
+        
+        <nav my-include-html="htmls\RespNav.html" class="w3-bar w3-black">
+
+        </nav>
+        <header id="my-header">            
+            <h1>Various Notes</h1>
+            <p><b> Time is: </b><span id="my-date"></span></p>
+        </header>
+        <div id="noting-bar">
+            <button type="button" class="note-action" onclick="clearText()">Clear</button>
+            <button type="button" class="note-action" onclick="saveText()">Save</button> 
+            <button type="button" class="note-action" onclick="StartUp()">Restart</button> 
+            <button id="show-draft" type="button" onclick="showDraftArea()">Draft Area</button>
+            <button id="get-summary" type="button" onclick="summary()">Conclusion</button> 
+            <span id="notes-count"><b>Notes:</b></span>
+        </div>
+        <div id="text-areas">        
+            <textarea id="drafts">Hello Moulay Beilkhayr</textarea>
+            <textarea id="conclusion"></textarea>
+        </div>
+        
+        <div id="myTest">
+            <button type="button" class="note-action" onclick="CreateTextFile()">Save to File</button>
+        </div>
+        
+        <script type="text/javascript" src="..\js\RandomNotes.js"></script>
+        <script>StartUp();</script>
+        <script type="text/javascript" src="..\js\w3scripts.js"></script>
+        <script>MyincludeHTML();</script>
+    </body>
+</html>
