@@ -1,0 +1,20 @@
+html {direction:ltr}
+body {margin: 0 40px;background-color:#2564c1;}
+#my-header{display:flex;}
+#my-header h1{text-align: center;padding:10px;font-size:24px;font-weight:bolder;background-color:black;color:wheat;width:75%;}
+#my-header p{padding:10px;font-size:18px;background-color:wheat;color:#f31717;display:inline-block;width:20%;}
+#my-header p>span{color: #120258;}
+#noting-bar{display:flex;margin: 0 20px 0 40px;}
+.note-action{padding:10px;margin:0 10px;font-size:20px;font-weight:bolder;color:maroon;background-color:#d9d630;border:3px solid red;cursor: pointer;}
+.note-action:hover{background-color:maroon;color:#d9d630;border:3px solid white;}
+#show-draft {padding:10px;margin:0 10px;font-size:20px;font-weight:bolder;color:darkblue;background-color:whitesmoke ;border:maroon solid 4px;}
+#show-draft:hover {background-color:darkblue;color:whitesmoke;border:3px solid white;}
+#get-summary{font-size:18px;font-weight:bolder;color:red;border:white solid 4px;background-color:greenyellow;margin: 0 10px 0 100px;}
+#get-summary:hover{color:white;border:lime solid 4px; background-color:red}
+#notes-count{text-align: center;display: flex;flex-direction: row; align-items:center;}
+#text-areas{display:flex}
+#drafts{font-size:18px;color:darkblue;width: 50%;height: 250px;margin:10px 50px;border:maroon solid 4px;background-color:lightyellow}
+#conclusion{display: none;font-size:18px;color:black;width: 45%;height: 250px;margin:10px 50px;border:white solid 4px;background-color:#E6EE9C;white-space: pre-wrap;}
+.noteHead{font-weight:bolder;}
+
+notes-count b {margin: auto;}
