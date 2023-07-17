@@ -1,4 +1,7 @@
-//Public declarations
+StartUp();
+//Script functions
+function StartUp() {
+    //Public declarations
     var notescount;
     var noteCollection;
     const date = new Date();
@@ -6,9 +9,6 @@
     var notesCount=document.getElementById('notes-count');
     const myDratfsArea = document.querySelector('#drafts'); 
     const SummaryArea = document.querySelector('#conclusion');
-
-//Script functions
-function StartUp() {
     console.clear;  console.log(myDratfsArea.value+": Session Started");  
     notescount=0;
     noteCollection ="Notes Summary:\r\n";
