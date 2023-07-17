@@ -1,2 +1,2 @@
-common information between websites
-https://volunteersgroup.github.io/MyStocks/
+# common information between websites
+### https://volunteersgroup.github.io/MyStocks/
